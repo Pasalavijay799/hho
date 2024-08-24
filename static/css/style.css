@@ -1,1 +1,75 @@
+/* Custom styles for the sign up page */
+body {
+    background: url('/static/img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    background: rgba(0, 0, 0, 0.5); /* Darken background for better contrast */
+}
+
+.signup-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+}
+
+.signup-form h1 {
+    margin-bottom: 1.5rem;
+}
+
+.invalid-feedback {
+    display: none;
+    color: #dc3545;
+}
+
+.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+
+/* Custom styles for the login page */
+body {
+    background: url('/static/img/abd.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-form h1 {
+    margin-bottom: 1.5rem;
+}
+
+.forgot-password-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
